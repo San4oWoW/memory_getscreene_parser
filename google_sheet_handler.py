@@ -9,7 +9,7 @@ class Table:
     def __init__(self):
         self.name = "data.json"
         self.gc = gspread.service_account(filename=os.path.abspath("credentials.json"))
-        self.sh = self.gc.open_by_key("1l0dZJSaKKTJwCtjCwgABsJDbOeAeyuRJAnD7yNmyyGU")
+        self.sh = self.gc.open_by_key("")
         self.worksheet = self.sh.sheet1
 
     def write_string(self, string: list):

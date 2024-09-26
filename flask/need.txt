@@ -1,0 +1,34 @@
+id	идентификатор getsceen
+name	Название клиента
+last_time	Дата и время последнего состояния «в сети»
+geo.ip	IP-адрес
+geo.country	Страна
+geo.region	Регион
+geo.city	Город
+version		Версия программы агента
+online	состояние «В сети»
+hardware.BIOS	Информация о BIOS
+hardware.BIOSVersion	Версия
+hardware.CPU	Процессор
+hardware.CPUCores	Количество ядер
+hardware.CPUSpeed	Скорость
+hardware.ComputerIP	IP-адрес
+hardware.ComputerModel	Модель
+hardware.ComputerName	Имя компьютера
+hardware.HDD	Жесткие диски
+hardware.HDD[].Model	Модель
+hardware.HDD[].Size	Размер
+hardware.LogicalDisks[].FileSystem	Тип файловой системы
+hardware.LogicalDisks[].FreeSpace	Свободное место (МБ)
+hardware.LogicalDisks[].Name	Название
+hardware.LogicalDisks[].Size	Размер (МБ)
+hardware.NetAdapters[].MACAddress	MAC-адрес
+hardware.NetAdapters[].Speed	Скорость
+hardware.OSVersion	Версия операционной системы
+hardware.VideoCards[].Name	Название
+hardware.VideoCards[].RAM	Память
+sessions.last	Последнее подключение
+sessions.last.id	Внутри-системный идентификатор подключения
+sessions.last.start_time	Дата и время начала подключения
+sessions.last.stop_time		Дата и время конца подключения
+sessions.total	Общее количество подключений

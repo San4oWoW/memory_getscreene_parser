@@ -25,7 +25,7 @@ def handl():
     for i in range(len(mas_id)):
         url2 = "https://api.getscreen.ru/v1/agents/info"
         params2 = {
-            "apikey": "ZiBE26rKEfUW5JhEZUqTPgMZxhZMrztZ0ia7lhQGUqLADo40vyRS6R2byGq2QQii",
+            "apikey": "",
             "agent_id": mas_id[i]
         }
         r2 = requests.get(url=url2, params=params2)
